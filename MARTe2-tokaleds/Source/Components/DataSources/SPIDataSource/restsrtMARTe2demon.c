@@ -50,12 +50,14 @@ int main(int argc ,char** argv){
 
         printf("Restart Button Pressed!!");   
 
-	system(" echo -e \"Destination=StateMachine\nFunction=GOTOSTATE1\" | nc localhost 8001");
+	system(" echo  \"Destination=StateMachine\nFunction=GOTOSTATE1\" | nc localhost 8001");
 	sleep(10);
 	system("killall MARTeApp.ex");
+	sleep(20);
+
 	system("cd /home/pi/MARTe2-F4E/tokaleds/MARTe2-tokaleds/Startup && ./MARTeApp.sh -l RealTimeLoader -m StateMachine:START -f ../Configurations/RTApp-SPI_GPIOSync_MDSReaderNS_Picam_2T.cfg &");
-	sleep(10);
-        system(" echo -e \"Destination=StateMachine\nFunction=GOTOSTATE2\" | nc localhost 8001");
+	sleep(5);
+        system(" echo  \"Destination=StateMachine\nFunction=GOTOSTATE2\n\" | nc localhost 8001");
     //copy to datasourceMem+TimeSize
     //MemoryOperationsHelper::Copy(reinterpret_cast<void *>(&dataSourceMemory[offsets[numberOfTimeChannels]]), static_cast<void *>(spiBuffer), totSizeToRead);	
     }
