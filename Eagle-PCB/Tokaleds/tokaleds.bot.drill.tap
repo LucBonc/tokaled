@@ -1,0 +1,242 @@
+(.../pcb-gcode-3.6.2.4/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../consip/eagle/Tokaleds/tokaleds.brd)
+(Current profile is .../pcb-gcode-3.6.2.4/profiles/mach.pp  )
+(This file generated 3/1/21 6:41 PM)
+(Settings from pcb-machine.h)
+(spindle on time = 0.5000)
+(spindle speed = 20000.0000)
+(tool change at 0.0000  0.0000  40.0000 )
+(feed rate xy = F0     )
+(feed rate z  = F90    )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(3.0000  	2.5400  	-0.0600 	-1.8000 )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0254)
+(isolate max = 0.5080)
+(isolate step = 0.1270)
+(Generated top outlines, top drill, bottom outlines, bottom drill, )
+(Unit of measure: mm)
+(Beginning of every file)
+(Beginning of every bottom file)
+(Beginning of All Drill files)
+(Bottom Drill Begin)
+( Tool|       Size       |  Min Sub |  Max Sub |   Count )
+( T01 | 0.350mm 0.0138in | 0.0000in | 0.0000in |       0 )
+( T02 | 0.800mm 0.0315in | 0.0000in | 0.0000in |       0 )
+( T03 | 0.813mm 0.0320in | 0.0000in | 0.0000in |       0 )
+( T04 | 0.900mm 0.0354in | 0.0000in | 0.0000in |       0 )
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+S20000
+G00 Z3.0000  
+G00 X0.0000  Y0.0000  
+M03
+G04 P0.500000
+(Tool Change Begin)
+(Bottom Tool Change Begin)
+M05
+G00 Z40.0000 
+M06 T01  ; 0.3500  
+(Bottom Tool changed)
+(Tool changed)
+(Tool zero begin)
+(Bottom Tool zero begin)
+G01 Z0.0000  F90    
+M06 
+(Bottom Tool zero end)
+(Tool zero end)
+G00 Z2.5400  
+M03
+G04 P0.500000
+(Bottom Tool Change End)
+(Tool Change End)
+G82 X-35.5600 Y65.4050 Z-1.8000 F90    R2.5400  P0.500000
+(Tool Change Begin)
+(Bottom Tool Change Begin)
+M05
+G00 Z40.0000 
+G00 X0.0000  Y0.0000  
+M06 T02  ; 0.8000  
+(Bottom Tool changed)
+(Tool changed)
+(Tool zero begin)
+(Bottom Tool zero begin)
+G01 Z0.0000  F90    
+M06 
+(Bottom Tool zero end)
+(Tool zero end)
+G00 Z2.5400  
+M03
+G04 P0.500000
+(Bottom Tool Change End)
+(Tool Change End)
+G82 X-20.5100 Y9.5600  Z-1.8000 F90    R2.5400  P0.500000
+G82 X-20.5100 Y12.1000 
+G82 X-20.5100 Y14.6400 
+G82 X-20.5100 Y17.1800 
+G82 X-20.5100 Y19.7200 
+G82 X-20.5100 Y22.2600 
+G82 X-20.5100 Y24.8000 
+G82 X-20.5100 Y27.3400 
+G82 X-20.5100 Y29.8800 
+G82 X-20.5100 Y32.4200 
+G82 X-20.5100 Y34.9600 
+G82 X-20.5100 Y37.5000 
+G82 X-20.5100 Y40.0400 
+G82 X-20.5100 Y42.5800 
+G82 X-20.5100 Y45.1200 
+G82 X-35.7500 Y45.1200 
+G82 X-35.7500 Y42.5800 
+G82 X-35.7500 Y40.0400 
+G82 X-35.7500 Y37.5000 
+G82 X-35.7500 Y34.9600 
+G82 X-35.7500 Y32.4200 
+G82 X-35.7500 Y29.8800 
+G82 X-35.7500 Y27.3400 
+G82 X-35.7500 Y24.8000 
+G82 X-35.7500 Y22.2600 
+G82 X-35.7500 Y19.7200 
+G82 X-35.7500 Y17.1800 
+G82 X-35.7500 Y14.6400 
+G82 X-35.7500 Y12.1000 
+G82 X-35.7500 Y9.5600  
+G82 X-30.6700 Y10.8300 
+G82 X-30.6700 Y8.2900  
+G82 X-28.1300 Y8.2900  
+G82 X-25.5900 Y8.2900  
+G82 X-25.5900 Y10.8300 
+G82 X-28.1300 Y10.8300 
+(Tool Change Begin)
+(Bottom Tool Change Begin)
+M05
+G00 Z40.0000 
+G00 X0.0000  Y0.0000  
+M06 T03  ; 0.8128  
+(Bottom Tool changed)
+(Tool changed)
+(Tool zero begin)
+(Bottom Tool zero begin)
+G01 Z0.0000  F90    
+M06 
+(Bottom Tool zero end)
+(Tool zero end)
+G00 Z2.5400  
+M03
+G04 P0.500000
+(Bottom Tool Change End)
+(Tool Change End)
+G82 X-25.2400 Y53.4300 Z-1.8000 F90    R2.5400  P0.500000
+G82 X-25.2400 Y55.9700 
+G82 X-25.2400 Y58.5100 
+G82 X-25.2400 Y61.0500 
+G82 X-25.2400 Y63.5900 
+G82 X-25.2400 Y66.1300 
+G82 X-25.2400 Y68.6700 
+G82 X-25.2400 Y71.2100 
+G82 X-32.8600 Y71.2100 
+G82 X-32.8600 Y68.6700 
+G82 X-32.8600 Y66.1300 
+G82 X-32.8600 Y63.5900 
+G82 X-32.8600 Y61.0500 
+G82 X-32.8600 Y58.5100 
+G82 X-32.8600 Y55.9700 
+G82 X-32.8600 Y53.4300 
+(Tool Change Begin)
+(Bottom Tool Change Begin)
+M05
+G00 Z40.0000 
+G00 X0.0000  Y0.0000  
+M06 T04  ; 0.9000  
+(Bottom Tool changed)
+(Tool changed)
+(Tool zero begin)
+(Bottom Tool zero begin)
+G01 Z0.0000  F90    
+M06 
+(Bottom Tool zero end)
+(Tool zero end)
+G00 Z2.5400  
+M03
+G04 P0.500000
+(Bottom Tool Change End)
+(Tool Change End)
+G82 X-5.8100 Y75.0700 Z-1.8000 F90    R2.5400  P0.500000
+G82 X-5.8100 Y77.0700 
+G82 X-10.7800 Y38.6200 
+G82 X-10.7800 Y36.6200 
+G82 X-10.7800 Y34.6200 
+G82 X-10.7800 Y32.6200 
+G82 X-10.7800 Y30.6200 
+G82 X-10.7800 Y28.6200 
+G82 X-10.7800 Y26.6200 
+G82 X-10.7800 Y24.6200 
+G82 X-12.7800 Y24.6200 
+G82 X-12.7800 Y26.6200 
+G82 X-12.7800 Y28.6200 
+G82 X-12.7800 Y30.6200 
+G82 X-12.7800 Y32.6200 
+G82 X-12.7800 Y34.6200 
+G82 X-12.7800 Y36.6200 
+G82 X-12.7800 Y38.6200 
+G82 X-48.7200 Y39.6100 
+G82 X-48.7200 Y37.6100 
+G82 X-48.7200 Y35.6100 
+G82 X-48.7200 Y33.6100 
+G82 X-48.7200 Y31.6100 
+G82 X-48.7200 Y29.6100 
+G82 X-48.7200 Y27.6100 
+G82 X-48.7200 Y25.6100 
+G82 X-48.7200 Y23.6100 
+G82 X-48.7200 Y21.6100 
+G82 X-48.7200 Y19.6100 
+G82 X-48.7200 Y17.6100 
+G82 X-48.7200 Y15.6100 
+G82 X-50.7200 Y15.6100 
+G82 X-50.7200 Y17.6100 
+G82 X-50.7200 Y19.6100 
+G82 X-50.7200 Y21.6100 
+G82 X-50.7200 Y23.6100 
+G82 X-50.7200 Y25.6100 
+G82 X-50.7200 Y27.6100 
+G82 X-50.7200 Y29.6100 
+G82 X-50.7200 Y31.6100 
+G82 X-50.7200 Y33.6100 
+G82 X-50.7200 Y35.6100 
+G82 X-50.7200 Y37.6100 
+G82 X-50.7200 Y39.6100 
+G82 X-50.7200 Y41.6100 
+G82 X-48.7200 Y41.6100 
+G82 X-48.7200 Y43.6100 
+G82 X-48.7200 Y45.6100 
+G82 X-48.7200 Y47.6100 
+G82 X-48.7200 Y49.6100 
+G82 X-48.7200 Y51.6100 
+G82 X-48.7200 Y53.6100 
+G82 X-50.7200 Y53.6100 
+G82 X-50.7200 Y51.6100 
+G82 X-50.7200 Y49.6100 
+G82 X-50.7200 Y47.6100 
+G82 X-50.7200 Y45.6100 
+G82 X-50.7200 Y43.6100 
+G82 X-51.3500 Y69.1000 
+G82 X-51.3500 Y71.1000 
+G82 X-51.3500 Y73.1000 
+G82 X-51.3500 Y75.1000 
+G82 X-53.3500 Y75.1000 
+G82 X-53.3500 Y73.1000 
+G82 X-53.3500 Y71.1000 
+G82 X-53.3500 Y69.1000 
+(Bottom Drill End)
+(End of all Drill Files)
+(End of every bottom file)
+(End of every file)
+T01 
+G00 Z3.0000  
+M05
+M02

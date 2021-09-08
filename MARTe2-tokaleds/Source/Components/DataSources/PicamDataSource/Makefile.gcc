@@ -1,0 +1,31 @@
+#############################################################
+#
+# Copyright 2015 F4E | European Joint Undertaking for ITER 
+#  and the Development of Fusion Energy ('Fusion for Energy')
+# 
+# Licensed under the EUPL, Version 1.1 or - as soon they 
+# will be approved by the European Commission - subsequent  
+# versions of the EUPL (the "Licence"); 
+# You may not use this work except in compliance with the 
+# Licence. 
+# You may obtain a copy of the Licence at: 
+#  
+# http://ec.europa.eu/idabc/eupl
+#
+# Unless required by applicable law or agreed to in 
+# writing, software distributed under the Licence is 
+# distributed on an "AS IS" basis, 
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either 
+# express or implied. 
+# See the Licence for the specific language governing 
+# permissions and limitations under the Licence. 
+#
+#############################################################
+
+
+include Makefile.inc
+LIBRARIES += -L/opt/vc/lib -rdynamic -lmmal_core -lmmal_util -lmmal_vc_client -lvcos -lbcm_host -lGLESv2 -lEGL `pkg-config --libs opencv`
+
+
+
+#/usr/local/lib/libopencv_dnn.so.3.3.0 /usr/local/lib/libopencv_ml.so.3.3.0 /usr/local/lib/libopencv_objdetect.so.3.3.0 /usr/local/lib/libopencv_shape.so.3.3.0 /usr/local/lib/libopencv_stitching.so.3.3.0 /usr/local/lib/libopencv_superres.so.3.3.0 /usr/local/lib/libopencv_videostab.so.3.3.0 /usr/local/lib/libopencv_calib3d.so.3.3.0 /usr/local/lib/libopencv_features2d.so.3.3.0 /usr/local/lib/libopencv_flann.so.3.3.0 /usr/local/lib/libopencv_highgui.so.3.3.0 /usr/local/lib/libopencv_photo.so.3.3.0 /usr/local/lib/libopencv_video.so.3.3.0 /usr/local/lib/libopencv_videoio.so.3.3.0 /usr/local/lib/libopencv_imgcodecs.so.3.3.0 /usr/local/lib/libopencv_imgproc.so.3.3.0 /usr/local/lib/libopencv_core.so.3.3.0 -Wl,-rpath,/opt/vc/lib:/usr/local/lib
