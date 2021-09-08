@@ -1,7 +1,7 @@
 **The Tokaled**
 
-During the first pandemic lockdown starting from The Tokamak Model of Steven Wray (https://www.thingiverse.com/thing:3264356), 
-born the Tokaled, controlled via arduino and a raspeberry pi running THe MARTe2 framework and using data coming from the GLORIOUS FTU Tokamak Experimental DataBase:
+During the first pandemic lockdown, starting from The Tokamak Model of Steven Wray (https://www.thingiverse.com/thing:3264356), is
+born the **Tokaled**, controlled by an Arduino and a raspeberry pi running THe MARTe2 framework, The Raspberry feed the pwm values For TF, CS,PF and plasma using data coming from the **GLORIOUS FTU Tokamak** experimental DataBase.
  
 _Construction Phase: https://www.thingiverse.com/make:964760:_
 
@@ -11,7 +11,7 @@ with an rgb strip and connect for it the Blue light, PF coils are green, CS is R
 To assemble it, I had to collapse all the TF coils togheter, put the plasma tube inside and roll it (helicoid) than I expand again the TF Coils and I put all on the base
 
 
-_Operatin Phase: https://www.thingiverse.com/make:964745_
+_Operatin Phase: https://www.thingiverse.com/make:964745:_
 
 Thera are several Configuration Files with different MARTe2 components to realize differnt Features, 
 
