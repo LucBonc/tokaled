@@ -2,20 +2,21 @@
 
 During the first pandemic lockdown, starting from The Tokamak Model of Steven Wray (https://www.thingiverse.com/thing:3264356), is
 born the **Tokaled**.
-The Tokaled coils (leds) are controlled by an Arduino and a raspeberry pi running THe MARTe2 framework.
-The Raspberry feeds the pwm values for TF, CS,PF and Plasma Current leds, using data coming from the **GLORIOUS FTU Tokamak** experimental dataBase (mdsplus trees).
+The Tokaled coils (leds) are controlled by an Arduino nano talking via SPI with a raspeberry pi that runs the MARTe2 framework.
+The Raspberry feeds the pwm values for TF, CS, PF and Plasma Current leds, using data coming from the **GLORIOUS FTU Tokamak** experimental dataBase (mdsplus trees).
  
 _Construction Phase: https://www.thingiverse.com/make:964760:_
 
-For the plasma I ve used a transparent tube rolled up like a helicoid, filled
-with an rgb strip and connect for it the Blue light, PF coils are green, CS is RED and is a chromed pipe of my toilet, TF is White.
+For the plasma I ve used a transparent pipe rolled up like a helicoid and filled
+with an rgb strip.  I connect for IPL the blue light while the PF leds are green, CS are RED, TF are white.
 
-To assemble it, I had to collapse all the TF coils togheter, put the plasma tube inside and roll it (helicoid) than I expand again the TF Coils and I put all on the base
+To assemble it, I had to collapse all the TF coils togheter, than I put the plasma pipes inside and I roll it (in an helicoidal way), than I expand again the TF Coils and I put all on the base.
 
 
 _Operatin Phase: https://www.thingiverse.com/make:964745:_
 
-Thera are several Configuration Files with different MARTe2 components to realize differnt Features, 
+Thera are several Configuration Files with different MARTe2 components to realize differnt Features.
+ 
 
 The lights are proportional to the modules of the currents flowing in an FTU experiment.
 
