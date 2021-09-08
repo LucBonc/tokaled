@@ -1,9 +1,9 @@
 **The Tokaled**
 
-Starting from The Tokamak Model of Steven Wray (https://www.thingiverse.com/thing:3264356) during first pandemic lockdown
-born the Tokaled controlled via arduino and a raspeberry pi running THe MARTe2 framework using data coming from the Glorious FTU Tokamak Experiment DataBase:
+During the first pandemic lockdown starting from The Tokamak Model of Steven Wray (https://www.thingiverse.com/thing:3264356), 
+born the Tokaled, controlled via arduino and a raspeberry pi running THe MARTe2 framework and using data coming from the GLORIOUS FTU Tokamak Experimental DataBase:
  
-Construction Phase: https://www.thingiverse.com/make:964760
+_Construction Phase: https://www.thingiverse.com/make:964760:_
 
 For the plasma I ve used a transparent tube rolled up like a helicoid, filled
 with an rgb strip and connect for it the Blue light, PF coils are green, CS is RED and is a chromed pipe of my toilet, TF is White.
@@ -11,7 +11,7 @@ with an rgb strip and connect for it the Blue light, PF coils are green, CS is R
 To assemble it, I had to collapse all the TF coils togheter, put the plasma tube inside and roll it (helicoid) than I expand again the TF Coils and I put all on the base
 
 
-Operatin Phase: https://www.thingiverse.com/make:964745
+_Operatin Phase: https://www.thingiverse.com/make:964745_
 
 Thera are several Configuration Files with different MARTe2 components to realize differnt Features, 
 
@@ -28,9 +28,10 @@ Hardware:
 - 5V or 12 V DC power supply
 
 Software:
-https://vcis-gitlab.f4e.europa.eu/aneto/MARTe2 branch develop_armv8_linux
-https://vcis-gitlab.f4e.europa.eu/aneto/MARTe2-components
-https://mdsplus.org
-arduino firmware, MARTe cfg , jscope file, mdsplus data tree , connection schematic and board, etc...https://github.com/LucBonc/tokaled
+
+- https://vcis-gitlab.f4e.europa.eu/aneto/MARTe2 branch develop_armv8_linux
+- https://vcis-gitlab.f4e.europa.eu/aneto/MARTe2-components
+- https://mdsplus.org
+- in this repo you can find arduino firmware, MARTe cfg , jscope file, mdsplus data tree , connection schematic and board, etc...https://github.com/LucBonc/tokaled
 
 
