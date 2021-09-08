@@ -1,7 +1,9 @@
 **The Tokaled**
 
 During the first pandemic lockdown, starting from The Tokamak Model of Steven Wray (https://www.thingiverse.com/thing:3264356), is
-born the **Tokaled**, controlled by an Arduino and a raspeberry pi running THe MARTe2 framework, The Raspberry feed the pwm values For TF, CS,PF and plasma using data coming from the **GLORIOUS FTU Tokamak** experimental DataBase.
+born the **Tokaled**.
+The Tokaled coils (leds) are controlled by an Arduino and a raspeberry pi running THe MARTe2 framework.
+The Raspberry feeds the pwm values for TF, CS,PF and Plasma Current leds, using data coming from the **GLORIOUS FTU Tokamak** experimental dataBase (mdsplus trees).
  
 _Construction Phase: https://www.thingiverse.com/make:964760:_
 
