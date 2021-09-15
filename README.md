@@ -44,7 +44,7 @@ Hardware:
 - 5V or 12 V DC power supply
 
 
-<img src="Doc/images/tokaled_pcb.jpg">
+<img src="Doc/images/tokaled_pcb.png">
 
 Software:
 
