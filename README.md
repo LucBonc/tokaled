@@ -43,6 +43,9 @@ Hardware:
 - 12V or 5V DC RGB led strips (with resistances)
 - 5V or 12 V DC power supply
 
+
+<img src="Doc/images/tokaled_pcb.jpg">
+
 Software:
 
 - https://vcis-gitlab.f4e.europa.eu/aneto/MARTe2 branch develop_armv8_linux
